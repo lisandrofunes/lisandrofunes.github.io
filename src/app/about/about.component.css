@@ -1,0 +1,27 @@
+.section_about{
+    background: var(--background2);
+}
+
+.row_about{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.col_i_about{
+    align-self: center;
+}
+
+.title_about{
+    color: var(--color2);
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--color1);
+}
+
+.description_about{
+    color: var(--text);
+}
+
+.pic{
+    content: var(--image-about)
+}

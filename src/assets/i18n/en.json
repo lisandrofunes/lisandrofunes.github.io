@@ -1,0 +1,38 @@
+{
+    "navbar":{
+        "home": "Home",
+        "about": "About",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+    },
+
+    "main":{
+        "hi": "Hello!",
+        "im": "I'm Lisandro",
+        "dev": "Web developer"
+    },
+
+    "about":{
+        "title": "About me",
+        "p1": "Hey there, my name is Lisandro Funes.",
+        "p2": "I'm a developer and university student of engineering in information systems.",
+        "p3": "I enjoy writing code to create new projects and provide solutions. I like to improve myself to continue growing and incorporating new skills.",
+        "p4": "My interest in development began when I was surfing the Internet and I found it interesting to be able to change the appearance of a web page, such as color, text and images. So, I looked into how this was possible and started modifying the pages through the development tools included in web browsers.",
+        "p5": "Then I started studying information systems engineering, where I learned development languages like Java and Python and started developing software applications, at the same time, I learned to create solutions in a more optimal way following development patterns. I also learned about network and communications technologies, databases, operating systems, and computer architecture.",
+        "p6": "Day by day I keep learning about Java, JavaScript, TypeScript, BootStrap, SpringBoot and Angular to apply in new projects."
+    },
+
+    "contact":{
+        "title": "Contact",
+        "name": "Name",
+        "email": "Email",
+        "alert": "Your email will never be shared.",
+        "subject": "Subject",
+        "message": "Message",
+        "buttom": "Send"
+    },
+
+    "footer":{
+        "rights": "© 2022 Lisandro Funes: All rights reserved"
+    }
+}
