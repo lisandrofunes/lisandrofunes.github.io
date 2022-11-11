@@ -1,0 +1,41 @@
+<section id="contact" class="section_contact">
+
+    <div class="container">
+      <div class="row row_contact">
+        <div class="col">
+          <div class="row title_contact"><h3>{{'contact.title' | translate }}</h3></div>
+          <div class="row form_contact">
+            <form action="https://formsubmit.co/a33b824764a2aee3a0f6dfee756f50b2" method="POST">
+              <div class="row">
+                <div class="col-4 mb-3">
+                  <label for="exampleInputName1" class="form-label">{{'contact.name' | translate }}</label>
+                  <input type="text" name="name" class="form-control" id="exampleInputName1">
+                </div>
+                <div class="col-5 mb-3">
+                  <label for="exampleInputEmail1" class="form-label">{{'contact.email' | translate }}</label>
+                  <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">{{'contact.alert' | translate }}</div>
+                </div>
+                <div class="col-3 mb-3">
+                  <label for="exampleInputSubject1" class="form-label">{{'contact.subject' | translate }}</label>
+                  <input type="text" name="_subject" class="form-control" id="exampleInputSubject1">
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">{{'contact.message' | translate }}</label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">{{'contact.buttom' | translate }}</button>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://localhost:4200/">
+
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </section>

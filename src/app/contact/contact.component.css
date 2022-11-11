@@ -1,0 +1,36 @@
+.title_contact{
+    color: var(--color2);
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-color: var(--color1);
+}
+
+.section_contact{
+    background-color: var(--background1);
+}
+
+.row_contact{
+    padding: 5vh 10vw;
+}
+
+.btn-primary{
+    background-color: var(--color1);
+    font-size: 1.1em;
+    border: none;
+    padding: 0.5rem 3rem;
+}
+
+.btn-primary:hover{
+    background-color: #0f5132 !important;
+    
+}
+
+.form-label{
+    color: var(--text);
+}
+
+.form-control{
+    color: var(--text);
+    background-color: var(--color3);
+    border: 1px solid var(--background1);
+}

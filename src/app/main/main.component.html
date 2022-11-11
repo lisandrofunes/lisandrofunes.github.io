@@ -1,0 +1,34 @@
+<section class="section_main">
+    <div class="container">
+        <!-- fila general -->
+        <div class="row row_main">
+            <!-- Pimer columna -->
+            <div class="col-6 col_i_main">
+                <h1>{{'main.hi' | translate }}</h1>
+                <h2>{{'main.im' | translate }}</h2>
+                <h3>{{'main.dev' | translate }}</h3>
+
+                
+                <!-- <h1>{{ 'demo.title' | translate }}</h1> -->
+            
+                <!-- <span class="form-inline">
+                    <select 
+                        class="form-control" 
+                        #selectedLang 
+                        (change)="switchLang(selectedLang.value)">
+                      <option *ngFor="let language of translate.getLangs()" 
+                        [value]="language"
+                        [selected]="language === translate.currentLang">
+                        {{ language }}
+                      </option>
+                    </select>
+                  </span> -->
+            
+            </div>
+            <!-- Segunda columna -->
+            <div class="col-6 col_d_main">
+                <img class="img-fluid pic" src="" alt=""> 
+            </div>
+        </div>
+    </div>
+</section>

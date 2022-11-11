@@ -1,0 +1,31 @@
+.toggle{
+    position: absolute;
+
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--color1);
+}
+
+h1{font-size: calc(1.375rem + 5vw);}
+h2{font-size: calc(1.375rem + 2.5vw);}
+h3{font-size: calc(1.375rem + 1vw);}
+p{font-size: 1.2em;}
+
+.section_main{
+    background: linear-gradient(-55deg, var(--main) 50%, var(--background1) 50%);
+} 
+
+.pic{
+    content: var(--image);
+}
+.row_main{
+    height: 100vh;
+    color: var(--color2);
+}
+
+.col_i_main, .col_d_main{
+    align-self: center;
+}
